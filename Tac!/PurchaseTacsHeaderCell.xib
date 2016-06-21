@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15C47a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SanFranciscoDisplay-Semibold.otf">
+            <string>SanFranciscoDisplay-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="PurchaseTacsHeaderCell" customModule="Tac_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWi-DO-PiL">
+                        <rect key="frame" x="271" y="37" width="74" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.60784313729999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZG6-Sa-VGY">
+                        <rect key="frame" x="27" y="37" width="74" height="1"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.60784313729999995" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Pd-fl-gvu">
+                        <rect key="frame" x="35" y="14" width="305" height="92"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0,99 each" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6x-TR-9cB">
+                                <rect key="frame" x="109" y="48" width="87" height="22"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Semibold" family="San Francisco Display" pointSize="18"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="アプリ内購入" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEX-dH-ghy">
+                                <rect key="frame" x="86" y="10" width="132" height="36"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="5gw-Hm-B5M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="22"/>
+                                <color key="textColor" red="0.41960784309999999" green="0.41960784309999999" blue="0.41960784309999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5gw-Hm-B5M"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="w6x-TR-9cB" secondAttribute="centerX" id="TpP-8f-OIX"/>
+                            <constraint firstItem="YEX-dH-ghy" firstAttribute="leading" secondItem="3Pd-fl-gvu" secondAttribute="leading" constant="86" id="X7b-fr-ULG"/>
+                            <constraint firstAttribute="bottom" secondItem="w6x-TR-9cB" secondAttribute="bottom" constant="22" id="c1J-UV-B71"/>
+                            <constraint firstItem="YEX-dH-ghy" firstAttribute="top" secondItem="3Pd-fl-gvu" secondAttribute="top" constant="10" id="km5-2t-Ube"/>
+                            <constraint firstItem="YEX-dH-ghy" firstAttribute="top" secondItem="3Pd-fl-gvu" secondAttribute="top" constant="-4" id="r0N-Z8-fnb"/>
+                            <constraint firstItem="YEX-dH-ghy" firstAttribute="centerX" secondItem="w6x-TR-9cB" secondAttribute="centerX" id="u28-zB-wJF"/>
+                            <constraint firstItem="YEX-dH-ghy" firstAttribute="top" secondItem="3Pd-fl-gvu" secondAttribute="top" constant="-4" id="vMW-CS-r0C"/>
+                            <constraint firstItem="w6x-TR-9cB" firstAttribute="top" secondItem="YEX-dH-ghy" secondAttribute="bottom" constant="2" id="vUz-fR-5h8"/>
+                            <constraint firstItem="YEX-dH-ghy" firstAttribute="centerX" secondItem="3Pd-fl-gvu" secondAttribute="centerX" id="y1P-Wr-c0B"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="X7b-fr-ULG"/>
+                                <exclude reference="r0N-Z8-fnb"/>
+                                <exclude reference="u28-zB-wJF"/>
+                                <exclude reference="vMW-CS-r0C"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" red="0.87058823529999996" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="zWi-DO-PiL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="29" id="8OV-Fv-lTt"/>
+                    <constraint firstAttribute="centerX" secondItem="3Pd-fl-gvu" secondAttribute="centerX" id="Abf-jf-bCS"/>
+                    <constraint firstItem="zWi-DO-PiL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="263" id="GBh-eR-koo"/>
+                    <constraint firstItem="ZG6-Sa-VGY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="29" id="MNJ-Ea-3Ay"/>
+                    <constraint firstItem="YEX-dH-ghy" firstAttribute="leading" secondItem="ZG6-Sa-VGY" secondAttribute="trailing" constant="20" id="R0n-fg-Jp1"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ZG6-Sa-VGY" secondAttribute="bottom" constant="53.5" id="U3I-VW-Ouz"/>
+                    <constraint firstAttribute="centerY" secondItem="3Pd-fl-gvu" secondAttribute="centerY" constant="-10" id="VAG-NR-Xxh"/>
+                    <constraint firstItem="zWi-DO-PiL" firstAttribute="leading" secondItem="YEX-dH-ghy" secondAttribute="trailing" constant="18" id="XFF-UI-vWx"/>
+                    <constraint firstItem="ZG6-Sa-VGY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="19" id="czA-xq-W2g"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="zWi-DO-PiL" secondAttribute="bottom" constant="53.5" id="jJg-oz-csz"/>
+                    <constraint firstItem="3Pd-fl-gvu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="27" id="owU-rS-QqT"/>
+                    <constraint firstAttribute="centerY" secondItem="3Pd-fl-gvu" secondAttribute="centerY" id="qpN-uH-PiK"/>
+                    <constraint firstItem="3Pd-fl-gvu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="rcn-3g-ODV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="zWi-DO-PiL" secondAttribute="trailing" constant="22" id="tEN-fk-uQf"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="qpN-uH-PiK"/>
+                        <exclude reference="GBh-eR-koo"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <point key="canvasLocation" x="259.5" y="414"/>
+        </tableViewCell>
+    </objects>
+</document>

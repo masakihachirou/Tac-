@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" rowHeight="401" id="KGk-i7-Jjw" customClass="PurchaseTacsCell" customModule="Tac_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="365"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="364.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="skO-Bi-muV" userLabel="setCard" customClass="DesignableView" customModule="Tac_" customModuleProvider="target">
+                        <rect key="frame" x="40" y="14" width="274" height="337"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47y-6z-Xh3" customClass="DesignableButton" customModule="Tac_" customModuleProvider="target">
+                                <rect key="frame" x="37" y="244" width="200" height="60"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30980392159999998" green="0.73333333329999995" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="47y-6z-Xh3" secondAttribute="height" multiplier="10:3" id="s0Y-L1-WAs"/>
+                                    <constraint firstAttribute="height" constant="60" id="w1f-zO-4p8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W6" family="Hiragino Kaku Gothic ProN" pointSize="16"/>
+                                <state key="normal" title="購入します。">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.75686274509999996" green="0.75686274509999996" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.29411764709999999" green="0.68627450980000004" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buyButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="hCX-tg-1fu"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="7Nx-Eq-T6q">
+                                <rect key="frame" x="40" y="25" width="194" height="194"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" fixedFrame="YES" image="dotO-set2a" translatesAutoresizingMaskIntoConstraints="NO" id="ZYs-ju-Z63">
+                                        <rect key="frame" x="8" y="107" width="82" height="82"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" fixedFrame="YES" image="dotO-set2a" translatesAutoresizingMaskIntoConstraints="NO" id="zwi-1k-x48">
+                                        <rect key="frame" x="102" y="8" width="82" height="82"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" fixedFrame="YES" image="dotO-set2a" translatesAutoresizingMaskIntoConstraints="NO" id="dLp-f9-CVa">
+                                        <rect key="frame" x="8" y="8" width="82" height="82"/>
+                                        <animations/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dotO-set2a" translatesAutoresizingMaskIntoConstraints="NO" id="zyV-6f-LUb">
+                                        <rect key="frame" x="102" y="107" width="82" height="82"/>
+                                        <animations/>
+                                    </imageView>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptb-gu-G6D" customClass="DesignableButton" customModule="Tac_" customModuleProvider="target">
+                                <rect key="frame" x="37" y="265" width="200" height="39"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <state key="normal" title="Pay For">
+                                    <color key="titleColor" red="1" green="0.99792803340000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="47y-6z-Xh3" firstAttribute="leading" secondItem="7Nx-Eq-T6q" secondAttribute="leading" constant="4" id="2gb-YB-KnP"/>
+                            <constraint firstItem="7Nx-Eq-T6q" firstAttribute="width" secondItem="skO-Bi-muV" secondAttribute="height" multiplier="200:349" id="5qS-og-RfJ"/>
+                            <constraint firstAttribute="width" secondItem="skO-Bi-muV" secondAttribute="height" multiplier="274:337" id="AKv-D2-g6G"/>
+                            <constraint firstItem="47y-6z-Xh3" firstAttribute="top" secondItem="7Nx-Eq-T6q" secondAttribute="bottom" constant="25" id="CMI-LO-LSM"/>
+                            <constraint firstItem="47y-6z-Xh3" firstAttribute="leading" secondItem="skO-Bi-muV" secondAttribute="leading" constant="37" id="Dc3-VK-O86"/>
+                            <constraint firstAttribute="bottom" secondItem="47y-6z-Xh3" secondAttribute="bottom" constant="33" id="EwG-Aw-cPY"/>
+                            <constraint firstItem="7Nx-Eq-T6q" firstAttribute="top" secondItem="skO-Bi-muV" secondAttribute="top" constant="25" id="Qxx-gP-W2f"/>
+                            <constraint firstAttribute="centerX" secondItem="47y-6z-Xh3" secondAttribute="centerX" id="UcT-eu-Jag"/>
+                            <constraint firstItem="7Nx-Eq-T6q" firstAttribute="leading" secondItem="skO-Bi-muV" secondAttribute="leading" constant="34" id="l26-o8-2st"/>
+                            <constraint firstAttribute="centerY" secondItem="7Nx-Eq-T6q" secondAttribute="centerY" id="spt-OX-Ryq"/>
+                            <constraint firstAttribute="centerX" secondItem="7Nx-Eq-T6q" secondAttribute="centerX" id="wSX-LZ-VVB"/>
+                            <constraint firstAttribute="centerX" secondItem="7Nx-Eq-T6q" secondAttribute="centerX" id="z37-0W-M9L"/>
+                            <constraint firstAttribute="trailing" secondItem="7Nx-Eq-T6q" secondAttribute="trailing" constant="46" id="zco-xn-Pff"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.75686274509803919" green="0.75686274509803919" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="l26-o8-2st"/>
+                                <exclude reference="spt-OX-Ryq"/>
+                                <exclude reference="wSX-LZ-VVB"/>
+                                <exclude reference="zco-xn-Pff"/>
+                                <exclude reference="2gb-YB-KnP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" red="0.87058823529411766" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="skO-Bi-muV" secondAttribute="centerX" id="3yS-dA-UsV"/>
+                    <constraint firstAttribute="centerY" secondItem="skO-Bi-muV" secondAttribute="centerY" id="qzO-qx-luK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="payForButton" destination="Ptb-gu-G6D" id="7rC-eM-h1h"/>
+                <outlet property="pieceFour" destination="zwi-1k-x48" id="lrA-Wa-4Gw"/>
+                <outlet property="pieceOne" destination="zyV-6f-LUb" id="7HB-R8-Wch"/>
+                <outlet property="pieceThree" destination="dLp-f9-CVa" id="xeK-3B-lxc"/>
+                <outlet property="pieceTwo" destination="ZYs-ju-Z63" id="lQD-Xy-5P8"/>
+            </connections>
+            <point key="canvasLocation" x="627.5" y="622.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dotO-set2a" width="82" height="82"/>
+    </resources>
+</document>

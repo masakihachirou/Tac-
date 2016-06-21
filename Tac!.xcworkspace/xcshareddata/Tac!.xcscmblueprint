@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1ED28838F4C8727BC2B6E9150AC0C63BAFFAD7F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1ED28838F4C8727BC2B6E9150AC0C63BAFFAD7F5" : 0,
+    "0E0939BB71593F9DFEB76AEAB2E14463C5B73132" : 0,
+    "36A9FB17D9A09942049B855DC4DADFF8BE9BBBBB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BE75DBEA-7996-4615-B17B-473498A1F3C5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1ED28838F4C8727BC2B6E9150AC0C63BAFFAD7F5" : "Tac!\/",
+    "0E0939BB71593F9DFEB76AEAB2E14463C5B73132" : "DylanTac!%20copy%204",
+    "36A9FB17D9A09942049B855DC4DADFF8BE9BBBBB" : "Tac"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tac!",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tac!.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andrewfashion\/Tac-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0E0939BB71593F9DFEB76AEAB2E14463C5B73132"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andrewfashion\/Tac.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1ED28838F4C8727BC2B6E9150AC0C63BAFFAD7F5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andrewfashion\/Tac.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "36A9FB17D9A09942049B855DC4DADFF8BE9BBBBB"
+    }
+  ]
+}

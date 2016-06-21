@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BE75DBEA-7996-4615-B17B-473498A1F3C5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tac!</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0E0939BB71593F9DFEB76AEAB2E14463C5B73132</key>
+		<string>https://github.com/andrewfashion/Tac-.git</string>
+		<key>36A9FB17D9A09942049B855DC4DADFF8BE9BBBBB</key>
+		<string>https://github.com/andrewfashion/Tac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tac!.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0E0939BB71593F9DFEB76AEAB2E14463C5B73132</key>
+		<string>../../DylanTac!%20copy%204</string>
+		<key>36A9FB17D9A09942049B855DC4DADFF8BE9BBBBB</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andrewfashion/Tac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36A9FB17D9A09942049B855DC4DADFF8BE9BBBBB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E0939BB71593F9DFEB76AEAB2E14463C5B73132</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DylanTac!%20copy%204</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36A9FB17D9A09942049B855DC4DADFF8BE9BBBBB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tac</string>
+		</dict>
+	</array>
+</dict>
+</plist>
